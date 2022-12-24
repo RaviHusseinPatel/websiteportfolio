@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 
 type Props = {
-  pageInfo: PageInfo;
+ 
 };
 
-function About({ pageInfo }: Props) {
+function About() {
   return (
     <motion.div
       initial={{ opacity: 0 }}
