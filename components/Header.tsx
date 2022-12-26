@@ -23,12 +23,12 @@ const Header = () => {
         className="flex flex-row items-center"
       >
         
-          <SocialIcon
+          <SocialIcon className=" hover:skew-y-12 hover:translate-y-2" 
            url="https://www.linkedin.com/in/ravihussein-patel/"
             fgColor="gray"
             bgColor="transparent"
           />
-       <SocialIcon
+       <SocialIcon className=" hover:skew-y-12 hover:translate-y-2"
            url="https://github.com/RaviHusseinPatel"
             fgColor="gray"
             bgColor="transparent"
