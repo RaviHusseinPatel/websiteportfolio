@@ -4,12 +4,11 @@ import {BsWhatsapp} from 'react-icons/bs'
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
-type ContactProps = {}
 
-const Contact: React.FC<ContactProps> = () => {
-  const form = useRef<HTMLFormElement>(null);
+const Contact = () => {
+  const form = useRef();
 
-  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_resiyjk', 'template_0682g8r', form.current, 'twRllAXMHeliQ5GuD')
@@ -19,16 +18,13 @@ const Contact: React.FC<ContactProps> = () => {
           console.log(error.text);
       });
 
-      e.currentTarget.reset();
+      e.target.reset()
   };
 
     return (
       <section id="contact">
-      <h3 >
-          Get in Touch
-
-        </h3>
-        <h2 >Contact Me</h2>
+        <h5 >Get in Touch</h5>
+        <h2>Contact Me</h2>
        <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
