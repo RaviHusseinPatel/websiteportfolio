@@ -8,11 +8,7 @@ import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 
 type Props = {};
 
-
-
-  function Contact({}: Props) {
-
-
+function Contact({}: Props) {
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
@@ -47,67 +43,74 @@ type Props = {};
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
         Contact
       </h3>
-      
-      <div className="w-2/3">
 
-      <div className="flex flex-col space-y-10">
-        {/* <h4 className="text-xl font-semibold text-center">
+      <div className="w-2/3">
+        <div className="flex flex-col space-y-10">
+          {/* <h4 className="text-xl font-semibold text-center">
           I have got just what you need.{" "}
           <span className="decoration-[#0ab4f7]/50 underline">Lets Talk.</span>
         </h4> */}
 
-        <div className="space-y-6">
-          <div className="flex items-center space-x-2 justify-center">
-            <PhoneIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
-            <p className="text-lg">+44 737550 2926</p>
+          <div className="space-y-6">
+            <div className="flex items-center space-x-2 justify-center">
+              <PhoneIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
+              <p className="text-lg">+44 737550 2926</p>
+            </div>
+
+            <div className="flex items-center space-x-5 justify-center">
+            <EnvelopeIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
+            <a className="text-xl" >
+             ravihusseinpatel@gmail.com
+            </a>
           </div>
 
-          <div className="flex items-center justify-center">
-            <MapPinIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
-            <p className="text-lg"> London,England (Relocate)</p>
+            <div className="flex items-center justify-center">
+              <MapPinIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
+              <p className="text-lg"> London,England (Relocate)</p>
+            </div>
           </div>
-        </div>
 
-        <form ref={form} onSubmit={sendEmail} className="p-4 ">
-          <div className="mb-4 border-spacing-1 ml-auto ">
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              required
-              className=" w-full py-2 px-3 rounded-lg shadow-sm bg-[rgb(56,55,55)] text-white placeholder-gray "
-            />
-          </div>
-          <div className="mb-4">
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              required
-              className="w-full py-2 px-3 rounded-lg shadow-sm bg-[rgb(56,55,55)] text-white placeholder-gray"
-            />
-          </div>
-          <div className="mb-4">
-            <textarea
-              name="message"
-              rows="6"
-              placeholder="Message"
-              required
-              className="w-full py-2 px-3 rounded-lg shadow-sm bg-[rgb(56,55,55)] text-white placeholder-gray"
-            />
-          </div>
-          <div className="flex justify-center">
-            <button
-              type="submit"
-              className="
-              bg-[#8A9A5B]/50 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5"         >
-              {" "}
-              Send Message{" "}
-            </button>
-          </div>
-        </form>
+          <form ref={form} onSubmit={sendEmail} className="p-4 ">
+            <div className="mb-4 border-spacing-1 ml-auto ">
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                required
+                className=" contactInput"
+              />
+            </div>
+            <div className="mb-4">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+                className="contactInput"
+              />
+            </div>
+            <div className="mb-4">
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Message"
+                required
+                className="contactInput"
+              />
+            </div>
+            <div className="flex justify-center">
+              <button
+                type="submit"
+                className=" mr-auto
+              bg-[#8A9A5B]/50 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5"
+              >
+                {" "}
+                Send Message{" "}
+              </button>
+            </div>
+          </form>
 
-        {/* </motion.div>
+          {/* </motion.div>
       <section id="contact" >
         <h5>Get in Touch</h5>
         <h2>Contact Me</h2>
@@ -142,10 +145,10 @@ type Props = {};
 
       </section>
     ) */}
-      </div>
+        </div>
       </div>
     </motion.div>
   );
-};
+}
 
 export default Contact;

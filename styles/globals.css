@@ -10,4 +10,8 @@
         @apply hover:translate-y-1  hover:underline uppercase text-xs tracking-widest transition-all text-gray-500  ;
 
     }
+
+    .contactInput {
+        @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all hover:border-[#8A9A5B]/40 focus:border-[#8A9A5B]/40 focus:text-[#8A9A5B]/70;
+      }
 }
