@@ -17,8 +17,9 @@ function Projects({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
+      <br></br>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#0a79f7]/80">
         {projects.map((project, i) => (
           <motion.div className="w-screen flex flex-col space-y-5 items-center justify-center flex-shrink-0 snap-center p-20 md:p-44 h-screen">
             <motion.img
@@ -34,13 +35,13 @@ function Projects({}: Props) {
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
-                <span className="decoration-[#F7AB0A]/50 underline">
+                {/* <span className="decoration-[#0ab4f7]/50 underline text-2xl">
                   Case Study {i + 1} of {projects.length}:
-                </span>{" "}
+                </span>{" "} */}
                 WorldPin
               </h4>
 
-              <p className="text-lg text-center md:text-left">
+              <p className="text-center md:text-left  md:text-xl lg:text-2xl ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in
                 eius veniam nulla eos similique, beatae quasi cupiditate
                 repellat aliquid modi, animi ratione id aut atque nobis dicta
@@ -50,7 +51,7 @@ function Projects({}: Props) {
           </motion.div>
         ))}
       </div>
-      <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12" />
+      <div className="w-full absolute top-[30%] bg-[#0a79f7]/10 left-0 h-[500px] -skew-y-12" />
     </motion.div>
   );
 }

@@ -33,7 +33,7 @@ function About() {
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">
           Here is a{" "}
-          <span className="decoration-[#F7AB0A]/50 underline">little</span>{" "}
+          <span className="decoration-[#0a79f7]/50 underline">little</span>{" "}
           background
         </h4>
         <p className="text-base">lorem ipsum</p>

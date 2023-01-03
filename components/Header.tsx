@@ -22,13 +22,15 @@ const Header = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-row items-center"
       >
-        
-          <SocialIcon className=" hover:skew-y-12 hover:translate-y-2" 
+      
+
+          <SocialIcon className="hover:translate-y-1 hover:text-[#0ab4f7]" 
            url="https://www.linkedin.com/in/ravihussein-patel/"
             fgColor="gray"
             bgColor="transparent"
+            
           />
-       <SocialIcon className=" hover:skew-y-12 hover:translate-y-2"
+       <SocialIcon className="hover:translate-y-1"
            url="https://github.com/RaviHusseinPatel"
             fgColor="gray"
             bgColor="transparent"

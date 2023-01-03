@@ -6,7 +6,7 @@ type Props = {
 
 function ExperienceCard() {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className=" top-2 flex flex-col rounded-lg items-center  flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{
           y: -100,
@@ -20,8 +20,8 @@ function ExperienceCard() {
       />
 
       <div className="px-0 md:px-10 ">
-        <h4 className="text-4xl font-light">Traineer FullStack Engineer</h4>
-        <p className="font-bold text-2xl mt-1">Bright Network Tech Academy</p>
+        <h4 className="text-2xl font-light">Trainee FullStack Engineer</h4>
+        <p className="font-bold text-xl mt-1">Bright Network Tech Academy</p>
         <div className="flex space-x-2 my-2">
             <img
               className="h-10 w-10 rounded-full"
