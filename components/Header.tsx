@@ -37,7 +37,8 @@ const Header = () => {
           />
       </motion.div>
 
-      
+      <Link href="#contact">
+
         <motion.div
           initial={{
             x: 500,
@@ -52,7 +53,7 @@ const Header = () => {
           transition={{ duration: 1 }}
           className="flex flex-row items-center text-gray-300 cursor-pointer"
         >
-          <SocialIcon
+          <SocialIcon 
             className="cursor-pointer"
             network="email"
             fgColor="gray"
@@ -62,7 +63,7 @@ const Header = () => {
             Get In Touch
           </p>
         </motion.div>
-      
+        </Link>
     </header>
   );
 };

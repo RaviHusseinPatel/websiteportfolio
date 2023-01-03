@@ -19,7 +19,7 @@ function WorkExperience() {
       </h3>
       <br></br>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8A9A5B]/80 hover:scrollbar-thumb-[#8A9A5B]">
           <ExpCard />
           <ExpCard />
           <ExpCard />
