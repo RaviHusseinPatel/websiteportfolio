@@ -37,7 +37,7 @@ const Header = () => {
           />
       </motion.div>
 
-      <Link href="#contact">
+      {/* <Link href="#contact"> */}
 
         <motion.div
           initial={{
@@ -63,7 +63,7 @@ const Header = () => {
             Get In Touch
           </p>
         </motion.div>
-        </Link>
+       
     </header>
   );
 };
