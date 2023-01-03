@@ -31,7 +31,7 @@ function Hero() {
         </h2>
         <h1 className="text-3xl lg:text-5xl font-semibold px-10">
           <span className="mr-3">{text}</span>
-          <Cursor cursorColor="#0a79f7" />
+          <Cursor cursorColor="#8A9A5B" />
         </h1>
 
         <div className="pt-5">

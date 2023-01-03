@@ -42,46 +42,47 @@ type Props = {};
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center"
+      className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center "
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
         Contact
       </h3>
-      <br></br>
+      
+      <div className="w-2/3">
 
       <div className="flex flex-col space-y-10">
-        <h4 className="text-xl font-semibold text-center">
+        {/* <h4 className="text-xl font-semibold text-center">
           I have got just what you need.{" "}
           <span className="decoration-[#0ab4f7]/50 underline">Lets Talk.</span>
-        </h4>
+        </h4> */}
 
-        <div className="space-y-10">
+        <div className="space-y-6">
           <div className="flex items-center space-x-2 justify-center">
-            <PhoneIcon className="text-[#0ab4f7] h-7 w-7 animate-pulse" />
+            <PhoneIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
             <p className="text-lg">+44 737550 2926</p>
           </div>
 
           <div className="flex items-center justify-center">
-            <MapPinIcon className="text-[#0ab4f7] h-7 w-7 animate-pulse" />
+            <MapPinIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
             <p className="text-lg"> London,England (Relocate)</p>
           </div>
         </div>
 
         <form ref={form} onSubmit={sendEmail} className="p-4 ">
-          <div className="mb-4 border-spacing-1 ">
+          <div className="mb-4 border-spacing-1 ml-auto ">
             <input
               type="text"
               name="name"
-              placeholder="Your Full Name"
+              placeholder="Name"
               required
-              className="w-full py-2 px-3 rounded-lg shadow-sm bg-[rgb(56,55,55)] text-white placeholder-gray "
+              className=" w-full py-2 px-3 rounded-lg shadow-sm bg-[rgb(56,55,55)] text-white placeholder-gray "
             />
           </div>
           <div className="mb-4">
             <input
               type="email"
               name="email"
-              placeholder="Your Email"
+              placeholder="Email"
               required
               className="w-full py-2 px-3 rounded-lg shadow-sm bg-[rgb(56,55,55)] text-white placeholder-gray"
             />
@@ -90,7 +91,7 @@ type Props = {};
             <textarea
               name="message"
               rows="6"
-              placeholder="Your Message"
+              placeholder="Message"
               required
               className="w-full py-2 px-3 rounded-lg shadow-sm bg-[rgb(56,55,55)] text-white placeholder-gray"
             />
@@ -98,8 +99,8 @@ type Props = {};
           <div className="flex justify-center">
             <button
               type="submit"
-              className="btn btn-primary py-2 px-4 rounded-lg shadow-sm mx-auto border-2 border-white hover:bg-[#0ab4f7]/50 hover:text-white"
-            >
+              className="
+              bg-[#8A9A5B]/50 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5"         >
               {" "}
               Send Message{" "}
             </button>
@@ -141,6 +142,7 @@ type Props = {};
 
       </section>
     ) */}
+      </div>
       </div>
     </motion.div>
   );
