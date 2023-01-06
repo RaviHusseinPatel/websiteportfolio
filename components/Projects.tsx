@@ -22,14 +22,14 @@ function Projects({}: Props) {
       },
       {
       id: 2,
-      image: tictactoe,
+      image: "tictactoe",
       title: 'TicTacToe- SpringBoot API',
       github: "https://github.com/RaviHusseinPatel/TicTacToe-2player-", 
       demo:"www.google.com",
       },
       {
       id: 3,
-      image:WorldPin,
+      image:"WorldPin",
       title: "insert project here",
       github: "https://github.com/bendesousa/bnta_capstone_project",
       demo:"www.google.com",
@@ -60,7 +60,7 @@ function Projects({}: Props) {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src={image} alt={title}
+              src={image}
               className="md:mb-0 flex-shrink-0 w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[300px] object-contain cursor-pointer"
             />
 
