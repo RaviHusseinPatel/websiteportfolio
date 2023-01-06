@@ -36,7 +36,12 @@ function About() {
           <span className="decoration-[#0a79f7]/50 underline">little</span>{" "}
           background
         </h4>
-        <p className="text-base">lorem ipsum</p>
+        <p className="text-lg">As an aspiring React developer with a year of experience building backend and frontend APIs, I have strong communication skills and a deep understanding of how to work with others. My experience in client-facing roles and as a tutor has given me the ability to ask the right questions and learn from others, which is a crucial skill for any developer.
+            I was able to demonstrate these skills during the BrightNetwork Technology Academy, where our group's final projects received recognition for being both creative and efficient.
+            <br></br> <br></br>
+            <b>Programming is important because it allows us to harness the power of engineering to improve the lives of people on a daily basis. 
+                This is what inspires me to code. The ability to be creative and collaborate with like-minded individuals from around the world to solve complex problems using technology however, is what excites me.</b>
+            </p>
       </div>
     </motion.div>
   );

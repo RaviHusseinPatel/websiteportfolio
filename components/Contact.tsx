@@ -38,14 +38,13 @@ function Contact({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center "
+      className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center"
     >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
         Contact
       </h3>
 
-      <div className="w-2/3">
-        <div className="flex flex-col space-y-10">
+      <div className="realitve w-full top-10">
           {/* <h4 className="text-xl font-semibold text-center">
           I have got just what you need.{" "}
           <span className="decoration-[#0ab4f7]/50 underline">Lets Talk.</span>
@@ -146,7 +145,6 @@ function Contact({}: Props) {
       </section>
     ) */}
         </div>
-      </div>
     </motion.div>
   );
 }
