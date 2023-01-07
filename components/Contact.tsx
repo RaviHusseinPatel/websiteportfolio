@@ -50,26 +50,22 @@ function Contact({}: Props) {
           <span className="decoration-[#0ab4f7]/50 underline">Lets Talk.</span>
         </h4> */}
 
-          <div className="space-y-6">
-            <div className="flex items-center space-x-2 justify-center">
-              <PhoneIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
-              <p className="text-lg">+44 737550 2926</p>
-            </div>
+          <div className="space-y-6 pt-20 ">
 
-            <div className="flex items-center space-x-5 justify-center">
+            <div className="flex items-center space-x-2 ">
             <EnvelopeIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
-            <a className="text-xl" >
+            <a className="text-lg" >
              ravihusseinpatel@gmail.com
             </a>
           </div>
 
-            <div className="flex items-center justify-center">
+            <div className="flex items-center space-x-2 ">
               <MapPinIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
-              <p className="text-lg"> London,England (Relocate)</p>
+              <p className="text-lg"> London,England (Willing To Relocate)</p>
             </div>
           </div>
 
-          <form ref={form} onSubmit={sendEmail} className="p-4 ">
+          <form ref={form} onSubmit={sendEmail} className=" flex flex-col space-y-2 w-fit mx-auto ">
             <div className="mb-4 border-spacing-1 ml-auto ">
               <input
                 type="text"
@@ -79,7 +75,7 @@ function Contact({}: Props) {
                 className=" contactInput"
               />
             </div>
-            <div className="mb-4">
+            <div className="mb-4 border-spacing-1 ml-auto ">
               <input
                 type="email"
                 name="email"
@@ -88,20 +84,20 @@ function Contact({}: Props) {
                 className="contactInput"
               />
             </div>
-            <div className="mb-4">
+            <div className="mb-4 border-spacing-1 pt-3  ml-auto ">
               <textarea
                 name="message"
                 rows="6"
                 placeholder="Message"
-                required
-                className="contactInput"
+
+                className="contactInput w-full"
               />
             </div>
             <div className="flex justify-center">
               <button
                 type="submit"
                 className=" mr-auto
-              bg-[#8A9A5B]/50 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5"
+              bg-[#8A9A5B]/70 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5"
               >
                 {" "}
                 Send Message{" "}

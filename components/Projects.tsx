@@ -75,7 +75,8 @@ function Projects({}: Props) {
               <p className="text-center md:text-left  md:text-xl lg:text-2xl ">
                {description}
               </p>
-              <a href={github} className="flex items-center p-4 w1/4 border-green-300 justify-center rounded-full hover:bg-green-500 hover:text-black text-xl font-bold" target="_blank"><VscSourceControl/>Source Code</a>            </div>
+              <a href={github} className="mr-auto flex justify-center
+              bg-[#8A9A5B]/70 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5" target="_blank"><VscSourceControl/>Source Code</a>            </div>
           </motion.div>
         ))}
       </div>
