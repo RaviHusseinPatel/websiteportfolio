@@ -19,9 +19,9 @@ export default function Home() {
         <title>Ravi's Web</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <section id="header" className="snap-start">
       <Header />
-
+      </section>
       <section id="hero" className="snap-start">
         <Hero />
       </section>

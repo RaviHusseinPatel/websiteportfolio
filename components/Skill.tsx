@@ -16,7 +16,7 @@ proficiency:"75%"},
 
 {id:2,
   skill:"React",
-image:"https://previews.dropbox.com/p/thumb/ABxrAK701bGybK2SGpSCv0HFiR1UEvZdfT17CT8ZgJueGKhiAK9ze5eNx9yRxPjeS-yOlqJYKi9N7TlSrednli1OUrsa3KlELrN5tp0CYhy1uC9kX3sGi1vmexXS7lDl81nr8Fp9obWWymKFJz0Ss8i_G9hYXMZGhHM6OiKC8ET2u6HgmeW7rLciEwbvTTy3bk199oE6KgcfWzm821Y4oBV6yxOnH7rtN5e0eNULAe4yQae-IqovZs8Kp_VVsrsW3qauKshBpagv_UIHVdru74cI6_du2Vw3V68Yd5RNKltKqK3BhGq-i_65Ze_sAUXD4EBfiitqGXt8nI6NTjJ5feYFiFRX_Tu9ARvRKMDQjvJb5H1LRpli7w3hsVQtxTcyLjk/p.png",
+image:"https://previews.dropbox.com/p/thumb/ABwjLuqDDON2U35nZ4lUt9Mnx-ODApR6kJfVGDXLg6Hq9vwrdjMv8KJo5mf8Hqs4c-QWLQCzlUYPPzNRs5GgLzd3PPPxHCrYLhBwmNFxmibzuECE83DsxKHsXW_WIsSUWPzIZjht6CHPa8THnaJWZ8aEyUqZVu4VbUDEHxTs-XR-qyLLFC81nClG49OwDts95amdYKW81aSvHl7vkVjOwpf10iGWF6MyqvEyUwcaJOK6Wr4qxy26oA-Z60UaIdY5KOFAmdhvjKWd7-hXUqHmL0QS8OZRxI0n0-nR4TVrpaMH8T_AW1cyVJHefBmOIB1un_Zu02uId6urxMUgAs-jHYeCu7TzudYdARrdIbxKgC55JW2n9Ms8RKIGa00yTjS8Xno/p.png",
 proficiency:"80%"},
 
 {id:3,
@@ -39,10 +39,15 @@ skill:"Tailwind CSS",
 image:"https://previews.dropbox.com/p/thumb/ABx2ywrmROUzUfO4zWAQ5CfchRvCMqpxgDRDP56J5MXYrZALN725l_9QFuG09ngxkWWBIH11MLcmG72W3TJX-jcSrQWNd5hgN7sAI4YAyQ4tdVKiRRbiuRAWxe-fRDSPfqjsqp5mU1l8GQV-9rRqWRFsPeL6UXbZTNCoRaRLvD37iWzUj2lF2gISJaBnkG8Nqodsz_kKbk37ABWObSk6vpYAlBwpW_nFqIGBvKGDVqsZGEUYYVI5elEoWYwbIccVAjlkX8KsLt4oCXLiewdee3XNLazmvsZ66u8ygujkjadBOjxjNics84-cZOGZUq3Q_iVpzmFOvDL_DIFjlYeUQrQqVuUg5Y-33_z50JQvZ6bNiELjy0CsmUPv0jjQ4LMjqX8/p.png",
 proficiency:"70%"},
 
+{id:6.5,
+  skill:"Three",
+image:"https://previews.dropbox.com/p/thumb/ABz5oK3C0GWo2aSdEztm9srhduTZhZ9U0DwWZIX-kwOtmd_Fsoy-KIXjs13N3AsO64JwGsbbR6hkG1h1HKQGBdJrTYf_wxQUngchzVzuWBVlHFKx4nAx78FZqn5ihI8wsjYlKZGFqI9NZ_ykvLQzeW84CCW4L92FPXIx1uxBiWfQOUEs-wXnkGI43v-ZQeKBNGtF7K2K84ECOHpwAsXCsRVh7UJeenCOrq4dCkwx0wpQccgbIUaC5OfYqdHZk_HSDrShkUyO5OcqWj7TVTFAjUqlKM2o-LHLDdO1U8QkUSlpyDlp-JplMMPLFNbeJPjgj9zm1HMuqTR2hgzSSt-Ul5F0F-J5k6_71tMP6bznx7z2YXlaspOnl7zln6OABo5ysus/p.png",
+proficiency:"20%"},
+
 {id:7,
   skill:"TypeScipt",
 image:"https://previews.dropbox.com/p/thumb/ABwuwpwA47hf4_vRzKTXq175rM1ubU-ICz5-vj5GK1fvKhTvbI9H0QlE4AIvTojJNsXrKDgxWfuCIuZvnRFL44Kz9U0KDFUpRgYWdbJCmvHyqkszlDF8d5A14R_SEwEmH5GEIQs6Ziq-E2umAUYCDS4lhijXJiqPjOSDXMQLISrzSA8S05ppXoiWYgjmzbyBgyeEG6TAPylq39p3dHdNxRB2D8NNNQfZvbmzHdgOrRHJ5UCAsvhGvgWeM5cCMh94ZQgBVU6H75tvQ2_ZTcT06LO8Ffstn5DKzS6gRtnW_RFztmrRdc6lB9p05jMz88V6mu1EAiF9cZN_8KV5AXr7SaEstCzg05xLR-TYMzPbJPeH9y00-JZys5MvrtzsXgYrumY/p.jpeg",
-proficiency:"30%"},
+proficiency:"60%"},
 
 {id:8,
   skill:"Node.JS",
@@ -64,10 +69,7 @@ proficiency:"50%"},
 image:"https://previews.dropbox.com/p/thumb/ABwe5FwNAxcVHLZG06r7tFIe2q90rwfbOsX-_BAET99MX5MyyhwYIMH4a3GgQU3WJacRQharAq67dHgQ98qseinixKUV1MbYcPLisZcw7IIT3YQIxDQZfk5EXG2BWx2Zntrib5-zQDdvbY5U7luR38uxx26BIb4M3P9Rj84AxSN0Po8tEoziZjEN2V6CZiEt6ZGxb1qoOUQ_Nmvj6vkxCjjlN-gSmwaUWT-NmQHJ22Am2wlyQNOgwFMwkaDWl7a6Zd1wYVbbcZ6RGoOIvfN3cqnI9qq9fyZBkHJSWHyBQ5DXtXOHziY9ZysTusK3Dn7ocjSAKjKsSMKF38i1o831fnDzCxonQfZOkEBQLM66-hp86curELNLJdddCQg4yM75YpU/p.png",
 proficiency:"70%"},
 
-{id:12,
-  skill:"PostMan",
-image:"https://previews.dropbox.com/p/thumb/AByxErIFKm7pl16cZ7vuTwCtai_ymgO9ga2HuwXmDjaXknx_77FWvULvzszssdmQC9M9e-QwBFzdn32gjP8VQM6N1XM4Zh3nw4pVkggx5XskQ7dLgN5vOMpubufmlEwLQDM6VgHngbeJnWmo67Dn52fjH8OSAx_r7rUjf0LlgAGBvTEvtub6liLGKx86fKr8eQ8meLKZHO7pJ5lWrPDjDd8kBHE8beZ2wpm_as7kV5NDvXisfLhY1aJAOKtGGcUlTiE0YYKCKTW_VPhHbrT4qwQ8qkyKT8-YiHioAk-oWpdvxrmZIi_gZnnnJgDnCik18-UQiYBR5QTKSj_y59sch51RDRv11dpgx9_5CCZm1DcR4ZC3QDuyKyO91gfeoFMF7Ow/p.png",
-proficiency:"90%"}
+
 
 
 ];

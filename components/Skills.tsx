@@ -20,7 +20,7 @@ function Skills() {
         Hover over a skill for current profieciency (At Junior Level)
       </h3>
 
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-4 gap-5 pt-40">
         <Skill /> 
         
         
