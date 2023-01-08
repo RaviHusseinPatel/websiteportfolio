@@ -38,109 +38,69 @@ function Contact({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center"
-    >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
-        Contact
-      </h3>
+   className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center justify-center">
+  <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
+    Contact
+  </h3>
 
-      <div className="realitve w-full top-10">
-          {/* <h4 className="text-xl font-semibold text-center">
-          I have got just what you need.{" "}
-          <span className="decoration-[#0ab4f7]/50 underline">Lets Talk.</span>
-        </h4> */}
+  <div className="relative w-full top-5 space-y-6 pt-2 pb-5 lg:text-3xl text justify-center">
+      <div className="space-y-6 pt-2 pb-5 lg:text-3xl">
 
-          <div className="space-y-6 pt-20 ">
+        <div className="flex items-center space-x-2 ">
+        <EnvelopeIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
+        <a className="text-lg lg:text-3xl" >
+         ravihusseinpatel@gmail.com
+        </a>
+      </div>
 
-            <div className="flex items-center space-x-2 ">
-            <EnvelopeIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
-            <a className="text-lg" >
-             ravihusseinpatel@gmail.com
-            </a>
-          </div>
-
-            <div className="flex items-center space-x-2 ">
-              <MapPinIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
-              <p className="text-lg"> London,England (Willing To Relocate)</p>
-            </div>
-          </div>
-
-          <form ref={form} onSubmit={sendEmail} className=" flex flex-col space-y-2 w-fit mx-auto ">
-            <div className="mb-4 border-spacing-1 ml-auto ">
-              <input
-                type="text"
-                name="name"
-                placeholder="Name"
-                required
-                className=" contactInput"
-              />
-            </div>
-            <div className="mb-4 border-spacing-1 ml-auto ">
-              <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                required
-                className="contactInput"
-              />
-            </div>
-            <div className="mb-4 border-spacing-1 pt-3  ml-auto ">
-              <textarea
-                name="message"
-                rows="6"
-                placeholder="Message"
-
-                className="contactInput w-full"
-              />
-            </div>
-            <div className="flex justify-center">
-              <button
-                type="submit"
-                className=" mr-auto
-              bg-[#8A9A5B]/70 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5"
-              >
-                {" "}
-                Send Message{" "}
-              </button>
-            </div>
-          </form>
-
-          {/* </motion.div>
-      <section id="contact" >
-        <h5>Get in Touch</h5>
-        <h2>Contact Me</h2>
-       <div className="container contact__container">
-        <div className="contact__options">
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon"/>
-            <h4>Email</h4>
-            <h5>ravihusseinpatel@gmail.com</h5>
-            <a href="mailto:ravihusseinpatel@gmail.com" target="_blank"> Send a message</a>
-          </article>
-          <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon"/>
-            <h4>Whatsapp</h4>
-            <h5>+44 7375502926</h5>
-            <a href="https://api.whatsapp.com/send?phone=+447375502926"> Send a message</a>
-          </article>
-          <article className="contact__option">
-            <BsLinkedin className="contact__option-icon"/>
-            <h4>LinkedIn</h4>
-            <h5>Ravi Hussein-Patel</h5>
-            <a href="https://www.linkedin.com/in/ravihussein-patel/" target="_blank"> View Profile</a>
-          </article>
+        <div className="flex items-center space-x-2 ">
+          <MapPinIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
+          <p className="text-lg lg:text-2xl"> London,England (Willing To Relocate)</p>
         </div>
-        <form ref={form} onSubmit={sendEmail} >
-          <input type="text" name="name" placeholder="Your Full Name" required />
-          <input type="email" name="email" placeholder="Your Email" required/>
-          <textarea name="message" rows="7" placeholder="Your Message" required />
-          <button type="submit" className="btn btn-primary"> Send Message </button>
-        </form>
-       </div>
+      </div>
 
-      </section>
-    ) */}
+      <form ref={form} onSubmit={sendEmail} className=" flex flex-col space-y-2 w-fit pt-5 ">
+        <div className="mb-4 border-spacing-1  ">
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            required
+            className=" contactInput"
+          />
         </div>
+        <div className="mb-4 border-spacing-1 ">
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+            className="contactInput"
+          />
+        </div>
+        <div className="mb-4 border-spacing-1 pt-3 ">
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Message"
+
+            className="contactInput w-full"
+          />
+        </div>
+        <div className="flex justify-center w-75">
+          <button
+            type="submit"
+            className=" mr-auto
+          bg-[#8A9A5B]/70 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5"
+          >
+            {" "}
+            Send Message{" "}
+          </button>
+        </div>
+      </form>
+    
+  </div>
+
     </motion.div>
   );
 }
