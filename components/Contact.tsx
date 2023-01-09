@@ -71,7 +71,7 @@ function Contact({}: Props) {
           </div>
 
       <form ref={form} onSubmit={sendEmail} className="mx-auto flex flex-col space-y-2 w-full pt-5 ">
-        <div className="mb-4 border-spacing-1  ">
+        <div className="mb-4 border-spacing-1 mx-auto">
           <input
             type="text"
             name="name"
@@ -80,21 +80,19 @@ function Contact({}: Props) {
             className=" contactInput"
           />
         </div>
-        <div className="mb-4 border-spacing-1 ">
+        <div className="mb-4 border-spacing-1 mx-auto">
           <input
             type="email"
             name="email"
             placeholder="Email"
             required
-            className="contactInput"
+            className="contactInput "
           />
         </div>
         <div className="mb-4 border-spacing-1 pt-3 ">
           <textarea
             name="message"
-            rows="6"
             placeholder="Message"
-
             className="contactInput w-full"
           />
         </div>
