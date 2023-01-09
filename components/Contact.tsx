@@ -38,28 +38,39 @@ function Contact({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-   className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen mx-auto items-center justify-center">
-  <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
-    Contact
-  </h3>
+      className="flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center"
+      >
+        <h3 className="absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl">
+          Contact
+        </h3>
+  
+        <div className="flex flex-col space-y-10 ">
+          {/* <h4 className="text-4xl font-semibold text-center">
+            I have got just what you need.{" "}
+            <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
+          </h4> */}
+  
+          <div className="space-y-10 pt-10 lg:pt-20">
+            <div className="flex items-center space-x-5 justify-center  ">
+              <PhoneIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
+              <a className="text-xl border-b-2 border-dotted border-[#8A9A5B]" 
+              href="tel:+447375502926">
+             +44 7375 502926
+              </a>            </div>
+            <div className="flex items-center space-x-5 justify-center">
+              <EnvelopeIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
+              <a className="text-xl border-b-2 border-dotted border-[#8A9A5B]" 
+              href="mailto:ravihusseinpatel@gmail.com">
+              ravihusseinpatel@gmail.com
+              </a>
+            </div>
+            <div className="flex items-center space-x-5 justify-center">
+              <MapPinIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
+              <p className="text-xl">London,UK (Willing to relocate)</p>
+            </div>
+          </div>
 
-  <div className="relative w-full top-5 space-y-6 pt-2 pb-5 lg:text-3xl text justify-center">
-      <div className="space-y-6 pt-2 pb-5 lg:text-3xl">
-
-        <div className="flex items-center space-x-2 ">
-        <EnvelopeIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
-        <a className="text-lg lg:text-3xl" >
-         ravihusseinpatel@gmail.com
-        </a>
-      </div>
-
-        <div className="flex items-center space-x-2 ">
-          <MapPinIcon className="text-[#8A9A5B] h-7 w-7 animate-pulse" />
-          <p className="text-lg lg:text-2xl"> London,England (Willing To Relocate)</p>
-        </div>
-      </div>
-
-      <form ref={form} onSubmit={sendEmail} className=" flex flex-col space-y-2 w-fit pt-5 ">
+      <form ref={form} onSubmit={sendEmail} className="mx-auto flex flex-col space-y-2 w-full pt-5 ">
         <div className="mb-4 border-spacing-1  ">
           <input
             type="text"
