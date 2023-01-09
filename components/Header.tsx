@@ -38,18 +38,13 @@ const Header = () => {
           bgColor="transparent"
         />
         <SiLeetcode
-          className="hover:translate-y-1  opacity-95 text-gray-400 text-2xl  ml-3 cursor-pointer"
+          className="hover:translate-y-1  opacity-70 text-gray-400 text-2xl  ml-5 cursor-pointer"
           href="https://leetcode.com/ratekkers/"
         />
-
-        <AiOutlineFilePdf className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl ml-12 cursor-pointer "></AiOutlineFilePdf>
-        <BsFileEarmarkWord className="hover:translate-y-1  opacity-95 text-gray-400 text-2xl  ml-2 flex justify-center cursor-pointer"></BsFileEarmarkWord>
-      
-
+        <b className="text-gray-400 ml-12">CV:</b>
+        <AiOutlineFilePdf className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl ml-1 cursor-pointer "></AiOutlineFilePdf>
+        <BsFileEarmarkWord className="hover:translate-y-1  opacity-95 text-gray-400 text-2xl  ml-1 flex justify-center cursor-pointer"></BsFileEarmarkWord>
       </motion.div>
-
-      {/* <h1 className="font-bold text-2xl text-gray-400 leading-tight">Ravi H-P</h1> */}
-      {/* <Link href="#contact"> */}
 
       <motion.div
         initial={{
@@ -65,19 +60,22 @@ const Header = () => {
         transition={{ duration: 1 }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
+                  <Link href="#contact"> 
+
         <SocialIcon
           className="cursor-pointer hover:translate-y-1 "
           network="email"
           fgColor="gray"
           bgColor="transparent"
         />
+        
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:translate-y-">
           Get In Touch
         </p>
+        </Link>
       </motion.div>
       {/* </Link> */}
     </header>
-    
   );
 };
 

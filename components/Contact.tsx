@@ -99,7 +99,7 @@ function Contact({}: Props) {
         <div className="flex justify-center w-75">
           <button
             type="submit"
-            className=" mr-auto
+            className=" mx-auto
           bg-[#8A9A5B]/70 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5"
           >
             {" "}
