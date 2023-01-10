@@ -5,6 +5,8 @@ import Link from "next/link";
 import { SiLeetcode } from "react-icons/si";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import { BsFileEarmarkWord } from "react-icons/bs";
+import CV from "../docs/CV.docx";
+import pdfcv from "../docs/pdfcv.pdf";
 
 type Props = {};
 
@@ -41,11 +43,18 @@ const Header = () => {
           className="hover:translate-y-1  opacity-70 text-gray-400 text-2xl  ml-5 cursor-pointer"
           href="https://leetcode.com/ratekkers/"
         />
-        <b className="text-gray-400 ml-12">CV:</b>
-        <AiOutlineFilePdf className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl ml-1 cursor-pointer "></AiOutlineFilePdf>
-        <BsFileEarmarkWord className="hover:translate-y-1  opacity-95 text-gray-400 text-2xl  ml-1 flex justify-center cursor-pointer"></BsFileEarmarkWord>
       </motion.div>
+      <div className="flex">
+        <BsFileEarmarkWord className="hover:translate-y-1  opacity-95 text-gray-400 text-2xl  ml-1 flex justify-center cursor-pointer"></BsFileEarmarkWord>
 
+        <b className="text-gray-400 justify-center ml-3 mr-3 lg:text-2xl">
+          Ravi Hussein-Patel
+        </b>
+        <AiOutlineFilePdf
+          // href={CV} target="blank"
+          className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer "
+        ></AiOutlineFilePdf>
+      </div>
       <motion.div
         initial={{
           x: 500,
@@ -60,7 +69,7 @@ const Header = () => {
         transition={{ duration: 1 }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
-                  <Link href="#contact"> 
+        {/* <Link href="#contact">  */}
 
         <SocialIcon
           className="cursor-pointer hover:translate-y-1 "
@@ -68,13 +77,12 @@ const Header = () => {
           fgColor="gray"
           bgColor="transparent"
         />
-        
+
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:translate-y-">
           Get In Touch
         </p>
-        </Link>
+        {/* </Link> */}
       </motion.div>
-      {/* </Link> */}
     </header>
   );
 };

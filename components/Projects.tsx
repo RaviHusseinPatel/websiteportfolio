@@ -25,14 +25,14 @@ function Projects({}: Props) {
       image: "https://previews.dropbox.com/p/thumb/ABxxCz2Ulpd5CFRMGK3YZfbQdsjUH9yjti2D__9OfPxWUoexyrnhAzZacfH5neJZxxfjeYRvGW000Eet06c1rkuszM8LvP3rrtF_Y3_Q7cj2JcEUYLXXzF-yn192t_4RQePcbIkYXZ7k-57l_xCHiFeLOB7R5uaCCPFkE8bpr9eYPLm-5z04qFiqEdAka8JFNTL7HkiJCATi5WSeCN-Qvra5QpmciWXU_KQriqjIZpwT7gBb85RL7Vg9bBr6oV8nr9-wmObji0gUS7UOuYXDcfLWHM9M581QZtCRXPB6_aJpzUsE23Q3yn5Ru2adKpx9SCKj7SNAlDFvYgXQmKOI2-g-xP8JVASbDFx8h1ndaIdYVsPozg1pHoCFpqZl1hBuZ3k/p.png",
       title: 'TicTacToe- SpringBoot API',
       github: "https://github.com/RaviHusseinPatel/TicTacToe-2player-", 
-      description:"A RESTful API containing repositories,services, models and controllers;developed using Spring and Postgres. It is a local 2-player tic-tac-toe game where players take turns trying to place 3 of their counters in a vertical, horizontal, or diagonal sequence. The results are stored in a SQL database, which records the game ID, the players associated with that game, the status of the game, and the winner (if the game is complete). We used Postman to test our code, ensuring that the API allows us to add players to a game and create sequences that result in a winner when any of the winning combinations are satisfied. ",
+      description:"A RESTful API containing repositories,services, models and controllers;developed using Spring and Postgres. This project is a local 2-player tic-tac-toe game where players take turns trying to place 3 of their counters in a vertical, horizontal, or diagonal sequence. The results are stored in a SQL database, which records the game ID, the players associated with that game, the status of the game, and the winner (if the game is complete). We used Postman to test our code, ensuring that the API allows us to add players to a game and create sequences that result in a winner when any of the winning combinations are satisfied. ",
       },
       {
       id: 3,
       image:"https://previews.dropbox.com/p/thumb/ABx1wBWPWNbWwI4_OkPtl2aSFCuffYWClTx_6ihOgAHwphU1nNStZc_WL93ZGZscAr5zpn-zO5RaHm4BoxVsp68aKsEuN7JFnqXbop1zOEkoYJ-bZ7S7p4N2YCq_9cDqx_pzbolx7z-U1lIhQ3mP5hf4swBR_zRbsRHYKcATARxQhFiOMOtVu860_uVtzktEUZ2O2KvBqd_6MNONQVXCa2nh8ckb3lz_9CLmsVaQPtGeMef9Wk5la8gxcGhrGUAYkP9QXgDNmOuyQ_azMdH-vqFuuEVQx_1QHVC1PLhUsap0-dDIw_ZdOWfSmgN-zUwOU9vSp3FFaYKTx7uyggqjW6sqmU2pyNfkDlHeFlcCJzRwAIAylYW928egK8O8VE1gQh4/p.png",
-      title: "Portfolio- A Next.JS API",
+      title: "Portfolio- Next.JS API",
       github: "https://github.com/RaviHusseinPatel/websiteportfolio",
-      description:"This is a  modern portfolio website is built using Next.js, a framework for building server-rendered or statically-exported React applications. It is written in TypeScript, a typed superset of JavaScript that adds type checking to your code, helping me catch errors before you run your code. The website is designed using Tailwind CSS, a utility-first CSS framework that makes it easy to style your application with low-specificity, modular styles. It allows me to apply styles directly to my HTML elements using classes, rather than having to define styles in a separate CSS file. It also implements animations and gestures using Framer Motion, a library for creating animations and gestures in React. It provides a simple, declarative API for creating complex, interactive animations that can be easily composed and reused.",
+      description:"This is modern portfolio website is built using Next.js, a framework for building server-rendered or statically-exported React applications. It is written in TypeScript, a typed superset of JavaScript that adds type checking to your code, helping me catch errors before you run your code. The website is designed using Tailwind CSS, a utility-first CSS framework that makes it easy to style your application with low-specificity, modular styles. It allows me to apply styles directly to my HTML elements using classes, rather than having to define styles in a separate CSS file. It also implements animations and gestures using Framer Motion, a library for creating animations and gestures in React. It provides a simple, declarative API for creating complex, interactive animations that can be easily composed and reused.",
       demo:"www.google.com",
       }
   
@@ -62,21 +62,18 @@ function Projects({}: Props) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               src={image}
-              className="md:mb-0 flex-shrink-0 w-46 h-26 rounded-full md:rounded-lg lg:rounded-full md:w-64 md:h-96 xl:w-[500px] xl:h-[300px] object-contain cursor-pointer"
+              className="pt-5 md:mb-0 flex-shrink-0 w-16 h-16 rounded-full  md:w-64 md:h-36 lg:w-35 lg:h-30 object-contain cursor-pointer"
             />
 
-            <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-              <h4 className="text-4xl font-semibold text-center">
-                {/* <span className="decoration-[#0ab4f7]/50 underline text-2xl">
-                  Case Study {i + 1} of {projects.length}:
-                </span>{" "} */}
+            <div className="space-y-10  md:px-1 max-w-6xl">
+              <h4 className="text-3xl font-semibold text-center border-b-4  border-[#8A9A5B]">
                 {title}
               </h4>
 
               <p className="text-center md:text-left  md:text-xl lg:text-xl ">
                {description}
               </p>
-              <a href={github} className="mr-auto flex justify-center
+              <a href={github} className=" mb-3 mx-auto w-1/2 flex justify-center
               bg-[#8A9A5B]/70 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5" target="_blank"><VscSourceControl/>Source Code</a>            </div>
           </motion.div>
         ))}

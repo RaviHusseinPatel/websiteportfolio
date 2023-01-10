@@ -92,7 +92,7 @@ function Contact({}: Props) {
         <div className="mb-4 border-spacing-1 pt-3 ">
           <textarea
             name="message"
-            placeholder="Message"
+            placeholder="Enquiry/ Feedback"
             className="contactInput w-full"
           />
         </div>
