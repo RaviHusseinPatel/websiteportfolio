@@ -5,8 +5,8 @@ import Link from "next/link";
 import { SiLeetcode } from "react-icons/si";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import { BsFileEarmarkWord } from "react-icons/bs";
-import CV from "../docs/CV.docx";
-import pdfcv from "../docs/pdfcv.pdf";
+// import {pdf} from '../docs'
+
 
 type Props = {};
 
@@ -45,15 +45,16 @@ const Header = () => {
         />
       </motion.div>
       <div className="flex">
-        <BsFileEarmarkWord className="hover:translate-y-1  opacity-95 text-gray-400 text-2xl  ml-1 flex justify-center cursor-pointer"></BsFileEarmarkWord>
-
+        
+        {/* <a href="https://docs.google.com/document/d/17vvdCHDkx_GaZnbwFEbPbRCij2Gu-pUD/edit?usp=sharing&ouid=111550726084411970003&rtpof=true&sd=true" target="_blank">
+ <BsFileEarmarkWord  className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer " />
+</a> */}
         <b className="text-gray-400 justify-center ml-3 mr-3 lg:text-2xl">
           Ravi Hussein-Patel
         </b>
-        <AiOutlineFilePdf
-          // href={CV} target="blank"
-          className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer "
-        ></AiOutlineFilePdf>
+        <a href="https://drive.google.com/file/d/1YQsgLcuVcC5sHjlitfNOtyHnPpQ7sxTO/view?usp=sharing" target="_blank">
+ <AiOutlineFilePdf className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer " />
+</a>
       </div>
       <motion.div
         initial={{
