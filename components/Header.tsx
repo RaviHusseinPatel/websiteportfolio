@@ -5,7 +5,6 @@ import Link from "next/link";
 import { SiLeetcode } from "react-icons/si";
 import { AiOutlineFilePdf } from "react-icons/ai";
 import { BsFileEarmarkWord } from "react-icons/bs";
-// import {pdf} from '../docs'
 
 
 type Props = {};
@@ -24,7 +23,7 @@ const Header = () => {
           opacity: 1,
           scale: 1,
         }}
-        transition={{ duration: 1.5 }}
+        transition={{ duration: 2 }}
         className="flex flex-row items-center"
       >
         <SocialIcon
@@ -46,14 +45,13 @@ const Header = () => {
       </motion.div>
       <div className="flex">
         
-        {/* <a href="https://docs.google.com/document/d/17vvdCHDkx_GaZnbwFEbPbRCij2Gu-pUD/edit?usp=sharing&ouid=111550726084411970003&rtpof=true&sd=true" target="_blank">
- <BsFileEarmarkWord  className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer " />
-</a> */}
-        <b className="text-gray-400 justify-center ml-3 mr-3 lg:text-2xl">
-          Ravi Hussein-Patel
-        </b>
+    
+      <b className="justify-center ml-3 mr-3 lg:text-2xl">
+  <span className="text-white">Ravi </span>
+  <span className="text-gray-400">Hussein-Patel</span>
+</b>
         <a href="https://drive.google.com/file/d/1YQsgLcuVcC5sHjlitfNOtyHnPpQ7sxTO/view?usp=sharing" target="_blank">
- <AiOutlineFilePdf className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer " />
+ <AiOutlineFilePdf className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer animate-pulse" />
 </a>
       </div>
       <motion.div
@@ -67,10 +65,10 @@ const Header = () => {
           opacity: 1,
           scale: 1,
         }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 2 }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
-        {/* <Link href="#contact">  */}
+        <Link href="#contact"> 
 
         <SocialIcon
           className="cursor-pointer hover:translate-y-1 "
@@ -79,10 +77,10 @@ const Header = () => {
           bgColor="transparent"
         />
 
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:translate-y-">
+        {/* <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:translate-y-">
           Get In Touch
-        </p>
-        {/* </Link> */}
+        </p> */}
+        </Link>
       </motion.div>
     </header>
   );

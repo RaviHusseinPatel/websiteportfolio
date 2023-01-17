@@ -26,7 +26,7 @@ function About() {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        src="https://previews.dropbox.com/p/thumb/ABzmWELgJytRyGpL_sBUdqpAH4kaVhiv3BhHQpi-kHAy1GWmDmrRWlH26Ja-Ze5lY4qU7aW58bpKvZ_bMf63EAiMOL2wPmWL1WerDuByi88Dl0ukuhLT5LOZt8V2hXNmhT_kh4ttg6QZxOdIqLqG7rb0J2zMrEBbXwr3X3hN-PnQ0uCldI1_IBPmRGQ2SgxU4ZEMYnn1ilyH4s19tu-cJFHZaKEHdUNfr1ASPEfteNbtejh9Bz9ZZyysk2ypgYjKNMxiwtwtPcnKCu1ufVozHN2j1IWPOZ7fGzEYZe7Fs8hCQixp9wjHxN0jHVnyBF-zuWtvUVZNibZnvYoAJ2-rWjrAt_xv3pad679Ka1k5Ap4im_86p7jNK4sPtlpdNcxFtOSir9WbBwSWrA80nJDIwt5HFewyXFvg-vUnQ3T4DEFYEJeTNUZOYDh42IclgIkRfwqpvASPA9u63durMLXhXz5dBdR8_H2Lgbbof7MZnQTiXZ3eJwMIiguEQIQWDivU9rLugSyHIpveE2r1e0BHBK48ikKgrLDJWpQ-JnvjNTx0qn9AuVWAeCUd1o-lYOMZjNo/p.png"
+src="https://previews.dropbox.com/p/thumb/ABwrdBLt6x7GCGlCMIcDs21Y8EOFrIKsnZs2WZmMlrsuWUEKKpbf6xhbTOkQkvmQTTo0tOpz54QdG5J59awZSqTOOWKRz5zDnA5DCuN-GgYEQsgVVwvxpiDTdBe0hWoFEIDcx971zOBkRGeI16pH-DTf42MB7jF68DGcOPscMpDETjtmR4rI0ujux55Razr5G9EA82PkeLm7ezTYprNqyRKfV2vKrMPcT1qKIbcNP14mz_IcvPuLiapxL3q4JmIx-e1Vuqy-3LvQH7H4GrSCClqgYoctyq0z8hQBHoS0DIq30JYrIYfgfd89VbxK_pPt3I4wbUmPRfH7wm4DvE573fMTx2DoMu_ZsL7eWFvffohRSYrm-I2-e19yqhPs_q9m0h2d0mG0rtVMtmXKQfwvCHWskkF1oKpgyO5ltpewyjUVQzjFQ8kGWjQyLrx_cgb5P6xmUs8aXNaEaIWgMQoWrPeRXYT_igMDM15KG7Uhuwu4wBlld5eoFK6BuMrC_8uoPYpxGTijcOd7ZwQ3BCtC2CrAmXGLoje_OQhBonNQ4yexniHKzW9zGDSZW5Sd8aTzA8U/p.png"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-96 xl:w-[300px] xl:h-[400px] object-cover"
       ></motion.img>
 
@@ -36,7 +36,7 @@ function About() {
           <span className="decoration-[#8A9A5B]/50 underline">little</span>{" "}
           background
         </h4>
-        <p className="text-sm xl:text-lg">As an aspiring React developer with a year of experience building backend and frontend APIs, I have strong communication skills and a deep understanding of how to work with others. My experience in client-facing roles and as a tutor has given me the ability to ask the right questions and learn from others, which is a crucial skill for any developer.
+        <p className="text-sm xl:text-lg">An aspiring Frontend Developer with a year of experience building fullstack and frontend APIs, I have strong communication skills and a deep understanding of how to work with others. My experience in client-facing roles and as a tutor has given me the ability to ask the right questions and learn from others, which is a crucial skill for any developer.
             I was able to demonstrate these skills during the BrightNetwork Technology Academy, where our group's final projects received recognition for being both creative and efficient.
             <br></br> <br></br>
             <b>Programming is important because it allows us to harness the power of engineering to improve the lives of people on a daily basis. 

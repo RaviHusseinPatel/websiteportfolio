@@ -41,8 +41,8 @@ proficiency:"70%"},
 
 {id:6.5,
   skill:"Three",
-image:"https://previews.dropbox.com/p/thumb/ABz5oK3C0GWo2aSdEztm9srhduTZhZ9U0DwWZIX-kwOtmd_Fsoy-KIXjs13N3AsO64JwGsbbR6hkG1h1HKQGBdJrTYf_wxQUngchzVzuWBVlHFKx4nAx78FZqn5ihI8wsjYlKZGFqI9NZ_ykvLQzeW84CCW4L92FPXIx1uxBiWfQOUEs-wXnkGI43v-ZQeKBNGtF7K2K84ECOHpwAsXCsRVh7UJeenCOrq4dCkwx0wpQccgbIUaC5OfYqdHZk_HSDrShkUyO5OcqWj7TVTFAjUqlKM2o-LHLDdO1U8QkUSlpyDlp-JplMMPLFNbeJPjgj9zm1HMuqTR2hgzSSt-Ul5F0F-J5k6_71tMP6bznx7z2YXlaspOnl7zln6OABo5ysus/p.png",
-proficiency:"20%"},
+image:"https://previews.dropbox.com/p/thumb/ABx-qxo-cyZP-1VQv3mQUy7hqtaphwQuEno5-OVsDrNlL1ErO5UmCoF0rdWa6gS1rDX-KPaHtckdKGJqfkuIfHH9fh2MBEc_M4INQ0dLroKT9JMG3FrTo9oc7la2dcIExYpbGcKrCHG-vxCZv3o84PK0BSdbO7PgZksNowx6dz-BkUpqCvHrA_YEbkIsNxx_ginz_7cL-Eubw5RHVKRoQdcLeN3FDRG9bhrwbJoVE4mditY511bPYEN7y1ZxGcL1n3UWUjoCV2J9CCGFZuUQsI1f1U_7PvNQJE-kxQz7SZf9ed2kH3gmPptd6gKg_3Ykyy2XptMjxM2qjum2GnqPJQFCQcW-qAN4OkNBCYVflH8VS5xwUcaFBhmos1OY0Ws9O3c/p.png",
+  proficiency:"20%"},
 
 {id:7,
   skill:"TypeScipt",
@@ -51,8 +51,8 @@ proficiency:"60%"},
 
 {id:8,
   skill:"Node.JS",
-image:"https://previews.dropbox.com/p/thumb/ABzxe4gVYy5vi7WdsN4nI6TqkD_i9J2JyjpPHeDnm33Xq1cOYJPi3vD-G_cqDmR0S1jbx8AwgqUb-28joB4CA03V2icXrtZ-8prgZ50aKj-ZL0fh73aGa4C-FzMeLopJ2ZnCKVFWBb1pDaG0_VOpDeelrWJLaup3GLQdd1qcjZmxRefLuRzkxK9tAYCwQfnjIgZ8SyWQ9IHZD7L-NO6tpifcrm1OV0CNPyZhjsMILFlWH1DEvC-e92PTb1QEEFduc1DQRVU0sqRPTAb1XIbLeEFAsJETOvLdXE2C7G1sFK24Wgr7R11sk5CKrRM6U0i4UEe3nRa7EThtPbo-lTLrgG4IhVSNTxB5AnYHFnMwrYCzsU6f8p1aKnvAZYvriu5Wnm0/p.png",
-proficiency:"70%"},
+image:"https://previews.dropbox.com/p/thumb/ABxB8b-RqUchbypw6JasurhWQ_Co8-DBpnWixYLoqUg60SuyeAkUMN-dqF0bDhsbyQ1I35EO-xnWBqhNQ0iw2teBEqoP7j6PyE-jka_8C_wosxvnKQP0fOepwFnrDNmDu7alAaivTDuDy-to3yDpciGCNvl1cvwdYwbNtxh0eyTaIK1H9UOVEuy6UpfeKuQGjUB3GSUw9IJiU7UdZp0mzDF93X836BqmsIDZxeECRRp3w1niJXKNWQOgoRwwR5oxlxEOOHANMn54SMykoLVryuZCN-t9cyY8_IK8Y-he_NBM-mokVo5cpMGSgeWnQV-P3Bh_NN2rU-eyxReLNWhh23-cplAfmgBOoHFxN7RIYclSdna849eSzhu0KwXsghydVrk/p.png",
+  proficiency:"70%"},
 
 {id:9,
   skill:"Java",
