@@ -49,6 +49,7 @@ function Projects({}: Props) {
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8A9A5B]/80">
         {projects.map(({ id, image, title, github, description }) => (
+          <div key={id}>
           <motion.div className="w-screen flex flex-col space-y-5 items-center justify-center flex-shrink-0 snap-center p-20 md:p-44 h-screen">
             <motion.img
               initial={{
@@ -79,6 +80,7 @@ function Projects({}: Props) {
               </a>{" "}
             </div>
           </motion.div>
+          </div>
         ))}
       </div>
       <div className="w-full absolute top-[30%] bg-[#8A9A5B]/10 left-0 h-[500px] -skew-y-12" />
