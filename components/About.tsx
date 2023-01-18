@@ -42,7 +42,7 @@ function About() {
           any developer. I was able to demonstrate these skills during the
           BrightNetwork Technology Academy, where our group's final projects
           received recognition for being both creative and efficient.
-          <br></br> <br></br>
+          <br></br><br></br>
           <b>
             Programming is important because it allows us to harness the power
             of engineering to improve the lives of people on a daily basis. This
@@ -55,5 +55,4 @@ function About() {
     </motion.div>
   );
 }
-
 export default About;

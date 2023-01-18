@@ -9,36 +9,35 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
-
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({subsets:["latin"]});
 
 export default function Home() {
   return (
     <div className="snap-y snap-mandatory h-screen overflow-y-scroll scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8A9A5B]/80 hover:scrollbar-thumb-[#8A9A5B] bg-[rgb(36,36,36)] text-white z-0">
       <Head>
         <title>Ravi's Web</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico"/>
       </Head>
       <section id="header" className="snap-start">
-      <Header />
+        <Header/>
       </section>
       <section id="hero" className="snap-start">
-        <Hero />
+        <Hero/>
       </section>
       <section id="about" className="snap-center transition-duration-900">
-        <About />
+        <About/>
       </section>
       <section id="experience" className="snap-center transition-duration-900">
-        <WorkExperience />
+        <WorkExperience/>
       </section>
       <section id="skills" className="snap-center transition-duration-900">
-        <Skills />
+        <Skills/>
       </section>
       <section id="projects" className="snap-center transition-duration-900">
-        <Projects />
+        <Projects/>
       </section>
       <section id="contact" className="snap-center transition-duration-900">
-        <Contact />
+        <Contact/>
       </section>
     </div>
   );
