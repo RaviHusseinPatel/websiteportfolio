@@ -73,7 +73,7 @@ function Projects({}: Props) {
                 href={github}
                 className=" mb-3 mx-auto w-1/2 flex justify-center
               bg-[#8A9A5B]/70 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5"
-                target="_blank"
+              target="_blank" rel="noreferrer noopener"
               >
                 <VscSourceControl />
                 Source Code
