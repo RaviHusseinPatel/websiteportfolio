@@ -21,9 +21,7 @@ function Skills() {
       </h3>
 
       <div className="grid grid-cols-4 gap-5 pt-40">
-        <Skill /> 
-        
-        
+        <Skill />
       </div>
     </motion.div>
   );

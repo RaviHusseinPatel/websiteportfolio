@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { SiLeetcode } from "react-icons/si";
 import { AiOutlineFilePdf } from "react-icons/ai";
-import { BsFileEarmarkWord } from "react-icons/bs";
-
 
 type Props = {};
 
@@ -44,15 +42,16 @@ const Header = () => {
         />
       </motion.div>
       <div className="flex">
-        
-    
-      <b className="justify-center ml-2 mr-3 lg:text-3xl">
-  <span className="text-white">Ravi </span>
-  <span className="text-gray-400">Hussein-Patel</span>
-</b>
-        <a href="https://drive.google.com/file/d/1YQsgLcuVcC5sHjlitfNOtyHnPpQ7sxTO/view?usp=sharing" target="_blank">
- <AiOutlineFilePdf className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer animate-pulse" />
-</a>
+        <b className="justify-center ml-2 mr-3 lg:text-3xl">
+          <span className="text-white">Ravi </span>
+          <span className="text-gray-400">Hussein-Patel</span>
+        </b>
+        <a
+          href="https://drive.google.com/file/d/1YQsgLcuVcC5sHjlitfNOtyHnPpQ7sxTO/view?usp=sharing"
+          target="_blank"
+        >
+          <AiOutlineFilePdf className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer animate-pulse" />
+        </a>
       </div>
       <motion.div
         initial={{
@@ -68,19 +67,11 @@ const Header = () => {
         transition={{ duration: 2 }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
-        {/* <Link href="#contact">  */}
+       <Link href="#contact" as="#contact">
+   <p className="text-gray-500 hover:translate-y-1">GET IN TOUCH ✉</p>
 
-        <SocialIcon
-          className="cursor-pointer hover:translate-y-1 "
-          network="email"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:translate-y-">
-          Get In Touch
-        </p>
-        {/* </Link> */}
+</Link>
+      
       </motion.div>
     </header>
   );

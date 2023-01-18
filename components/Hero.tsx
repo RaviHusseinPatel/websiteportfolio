@@ -11,7 +11,7 @@ function Hero() {
     words: [
       `Hi and welcome to a Next.JS Portfolio`,
       "but [CollaborativeCode] inspires innovation",
-      "<So please leave feedback below/>",
+      "<So leave feedback below :) />",
     ],
     loop: true,
     delaySpeed: 1500,
