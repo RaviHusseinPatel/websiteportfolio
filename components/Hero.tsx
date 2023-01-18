@@ -9,8 +9,8 @@ type Props = {};
 function Hero() {
   const [text, count] = useTypewriter({
     words: [
-      `Hi, welcome to my Next.JS Portfolio`,
-      "but [CollaborativeCode] runs faster",
+      `Hi and welcome to a Next.JS Portfolio`,
+      "but [CollaborativeCode] inspires innovation",
       "<So please leave feedback below/>",
     ],
     loop: true,

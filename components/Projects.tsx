@@ -12,22 +12,22 @@ function Projects({}: Props) {
       image:"https://previews.dropbox.com/p/thumb/ABw0S_jSeaRY3pr37p9apoge7AP4_e9XnEulGQwHi6Mhgx69XzCbGwxwXgMszRASYeFZDp8d-pC1mMVjx_R7Zs36Ua0EIPgIsK1R4WzJlEJ0po59P-KyOnTIQSA1muKy1h6dKPa5tZ_sM8VcabmGBngTpNp1y6XkTBkc4vO2DBs64bCA3INMxiiKaYALJP_X4HgXY2Xk3_HdGTp9Tw3ubvxGIW2gQ-X5xwNYhSZnvdEcVhm5-4WCggj-Pzve53zjHRmFoK3tCyzlnw9ngeqkrkqhK5KMDxCrTi9VnQpKKb58Wpb6JKX8DkpJ-MHN_gHMtfpHuG3CwepYBpVT_h3fnA_dZVYa5hmVwRQJ7I8MpAsOHoZgo0JsPwaaTilkS37872c/p.png",
       title:'WorldPin- React&SpringBoot API',
       github: "https://github.com/bendesousa/bnta_capstone_project" ,
-      description: "This project is a collaborative effort that leverages the React library and a Java SpringBoot API to build a web application that allows users to communicate their world travels in the form of photos located on a map. The application integrates with various APIs, including Google Maps, Geolocation, and Google Search, to offer a comprehensive and interactive user experience. It also uses Firebase Storage to store user data and uploaded photos, to be rendered upon page load. This app is designed to be used by travellers and long distance loved-ones- where individuals can track each others updates from around the world, in the form of pictures, captions and dates.",
+      description: "This project is a collaborative effort that leverages the React library and a Java SpringBoot API to build a web application that allows users to communicate their world travels in the form of photos located on a map. The application integrates with various APIs, including Google Maps, Geolocation, and Google Search, to offer a comprehensive and interactive user experience. It also uses Firebase Storage to store user data and uploaded photos, to be rendered upon page load. This app is designed to be used by travellers and long distance loved ones- where individuals can track each others updates from around the world in the form of pictures, captions and dates.",
     
       },
       {
       id: 2,
-      image: "https://previews.dropbox.com/p/thumb/ABxxCz2Ulpd5CFRMGK3YZfbQdsjUH9yjti2D__9OfPxWUoexyrnhAzZacfH5neJZxxfjeYRvGW000Eet06c1rkuszM8LvP3rrtF_Y3_Q7cj2JcEUYLXXzF-yn192t_4RQePcbIkYXZ7k-57l_xCHiFeLOB7R5uaCCPFkE8bpr9eYPLm-5z04qFiqEdAka8JFNTL7HkiJCATi5WSeCN-Qvra5QpmciWXU_KQriqjIZpwT7gBb85RL7Vg9bBr6oV8nr9-wmObji0gUS7UOuYXDcfLWHM9M581QZtCRXPB6_aJpzUsE23Q3yn5Ru2adKpx9SCKj7SNAlDFvYgXQmKOI2-g-xP8JVASbDFx8h1ndaIdYVsPozg1pHoCFpqZl1hBuZ3k/p.png",
+image:"https://previews.dropbox.com/p/thumb/ABy5-MqNW_TrukbOuFPpWDCuSBrjNlUHG1sdMqIBmKIe2IHIP8SzYgVi3goFMngbtUodh4BlLad-7CmrM2aWHTjXnds5zNWafDz7Qs2MERwbt4hlO4XA7jS7H22CwLng2Xkr8mTEuGdFLR1-vUgJ8o2UOCUR-OIYExRix8l6mnjAQyNV2Vq5MXqXEzrD7W12OVVaY_swPIuMwuv8AJwzn6qhHkUllOjs3Rr86sKMYAnPHxlB3kvFBFfdUA0chy0VSijp8aTRAPRJl4wtxvJiAZFs4N_PZXOUX9CVjCwAaU-F555TXp5eqKvwNjNStPWoVT27x_kqGxeaERdDpwcE_FiIVQH79HmVI8AKjEWColBUvWwrnLJVKplSUl4OdKPVL5Q/p.png",
       title: 'TicTacToe- SpringBoot API',
       github: "https://github.com/RaviHusseinPatel/TicTacToe-2player-", 
-      description:"A RESTful API containing repositories,services, models and controllers;developed using Spring and Postgres. This project is a local 2-player tic-tac-toe game where players take turns trying to place 3 of their counters in a vertical, horizontal, or diagonal sequence. The results are stored in a SQL database, which records the game ID, the players associated with that game, the status of the game, and the winner (if the game is complete). We used Postman to test our code, ensuring that the API allows us to add players to a game and create sequences that result in a winner when any of the winning combinations are satisfied. ",
+      description:"A RESTful API containing repositories,services, models and controllers; developed using Spring and PostgreSQL. This project is a local 2-player tic-tac-toe game where players take turns trying to place 3 of their counters in a vertical, horizontal, or diagonal sequence. The results are stored in a SQL database, which records the game ID, the players associated with that game, the status of the game, and the winner (if the game is complete). We used Postman to test our code, ensuring that the API allows us to add players to a game and create sequences that result in a winner when any of the winning combinations are satisfied. ",
       },
       {
       id: 3,
 image:"https://previews.dropbox.com/p/thumb/AByKWHsJtZkyq1oR-Qg-RuVeZbr6vRXXkb-g9NaN1VpDvXMV_SnSOurbyJuK1k9wC7oO1dyM5G0cfedtqGWbBCWZGE41-yYpWdno-oZ28oOpTMd0J7bh8Otx_iTMR9V3tr2_QgzgdthI5MIjQd3jwwOM5dOMddtZ_LCaLjbE00-aFW_Em-lSqNzeeTrBz7xxOZ_r4C7X0U94evhw2A3OgqLEqQ3nCH384gWB8TXdXsN3Q9wDCXq2fLbvjK8otVOXejatH8OUEESKoX02pfpzIH0z4aPuMnBSvHVsGGJTKOVIloS7AHxGLurq7WmUgL2FAKPVIXGA1SUoO8FLPTOhdWDnpiEuqb_Xj2xfmpNvQNW_jGuXdLSgTrTrapPcfwJgUlE/p.png", 
      title: "Website Portfolio- Next.JS API",
       github: "https://github.com/RaviHusseinPatel/websiteportfolio",
-      description:"This fully-responsive modern portfolio website is built using Next.js, a framework for building server-rendered or statically-exported React applications. It is written in TypeScript, a typed superset of JavaScript that adds type checking to your code, helping me catch errors before you run your code. The website is designed using Tailwind CSS, a utility-first CSS framework that makes it easy to style your application with low-specificity, modular styles. It allows me to apply styles directly to my HTML elements using classes, rather than having to define styles in a separate CSS file. It also implements animations and gestures using Framer Motion, a library for creating animations and gestures in React.",
+      description:"This fully-responsive modern portfolio website is built using Next.js, a framework for building server-rendered or statically-exported React applications. It is written in TypeScript, a typed superset of JavaScript that adds type checking to your code, helping me catch errors before I run my code. The website is designed using Tailwind CSS, a utility-first CSS framework that makes it easy to style your application with low-specificity, modular styles. It allows me to apply styles directly to my HTML elements using classes, rather than having to define styles in a separate CSS file. It also implements animations and gestures using Framer Motion, a library for creating animations and gestures in React.",
       demo:"www.google.com",
       }
   
@@ -41,7 +41,7 @@ image:"https://previews.dropbox.com/p/thumb/AByKWHsJtZkyq1oR-Qg-RuVeZbr6vRXXkb-g
       transition={{ duration: 1.5 }}
       className="flex relative overflow-hidden flex-col text-left md:flex-row max-w-full h-screen justify-evenly mx-auto items-center z-0"
     >
-      <h3 className="absolute top-12 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute mb-1 top-12 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
       <br></br>

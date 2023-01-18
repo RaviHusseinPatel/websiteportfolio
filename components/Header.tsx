@@ -46,7 +46,7 @@ const Header = () => {
       <div className="flex">
         
     
-      <b className="justify-center ml-3 mr-3 lg:text-2xl">
+      <b className="justify-center ml-2 mr-3 lg:text-3xl">
   <span className="text-white">Ravi </span>
   <span className="text-gray-400">Hussein-Patel</span>
 </b>
@@ -68,7 +68,7 @@ const Header = () => {
         transition={{ duration: 2 }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
-        <Link href="#contact"> 
+        {/* <Link href="#contact">  */}
 
         <SocialIcon
           className="cursor-pointer hover:translate-y-1 "
@@ -77,10 +77,10 @@ const Header = () => {
           bgColor="transparent"
         />
 
-        {/* <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:translate-y-">
+        <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:translate-y-">
           Get In Touch
-        </p> */}
-        </Link>
+        </p>
+        {/* </Link> */}
       </motion.div>
     </header>
   );
