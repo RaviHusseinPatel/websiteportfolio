@@ -49,6 +49,7 @@ const Header = () => {
         <a
           href="https://drive.google.com/file/d/1YQsgLcuVcC5sHjlitfNOtyHnPpQ7sxTO/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           <AiOutlineFilePdf className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer animate-pulse" />
         </a>
