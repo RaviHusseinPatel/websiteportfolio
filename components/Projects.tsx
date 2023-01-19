@@ -9,8 +9,7 @@ function Projects({}: Props) {
     {
       id: 1,
       image:
-        "https://previews.dropbox.com/p/thumb/ABw0S_jSeaRY3pr37p9apoge7AP4_e9XnEulGQwHi6Mhgx69XzCbGwxwXgMszRASYeFZDp8d-pC1mMVjx_R7Zs36Ua0EIPgIsK1R4WzJlEJ0po59P-KyOnTIQSA1muKy1h6dKPa5tZ_sM8VcabmGBngTpNp1y6XkTBkc4vO2DBs64bCA3INMxiiKaYALJP_X4HgXY2Xk3_HdGTp9Tw3ubvxGIW2gQ-X5xwNYhSZnvdEcVhm5-4WCggj-Pzve53zjHRmFoK3tCyzlnw9ngeqkrkqhK5KMDxCrTi9VnQpKKb58Wpb6JKX8DkpJ-MHN_gHMtfpHuG3CwepYBpVT_h3fnA_dZVYa5hmVwRQJ7I8MpAsOHoZgo0JsPwaaTilkS37872c/p.png",
-      title: "WorldPin- React&SpringBoot API",
+"https://lh3.googleusercontent.com/ww6QJpySCMrS8r79RCqjob0KSqfcFItcbjV3zaBuZC-py2Jv0411WfMWALVQydiR9yJDiyslRZj7Jj6_W3Ni5Cxha3k5blkchzSI5HoTsEVtr4h6PEnXKxIJNrOSoSbenGbZGihKvGhkkLxOPrWSE6o8xXrfTt2JsBtyPbs1w9gDKGnsZhiJO2qp6cTSN8Y079ebkQy0eiRikKmxQf-CwrViSSMHuHuvgD6f1X6-8vllHgZLvHhyF53ADfY6AHK-OuRX83__ZabO3BsQj-PyrU8AdXxcCEdWDCtwHHsZo4Zxhi2Ed3j7tYXli4bit8XMfBURAhGbvZqGid6hrTw7Xg4lerkk-JbCUXxtQh05A3ZUM3at_ns_tVTcHZYi2wDN_h59OC_-0FuTQhe6D0qxwlbAzZoXdFtv_HGzejclaUio1R-X_TsLBrVh7XuY3dPsWXZZcfPRpMhgibY7HiKX0YoFBPiAfWEGzKL0-vcIiUQPpOgHme5WHUcKOUAJhNXes7iHlK-EiHXAVOz8Lxow3YGIN9VezdNBQJs3PAD0zskl0aeV_97yw5zCz3lxHErakkp8yq5XmU_7D5E2lMtYnIHd7aUulpP9Qmd8lhqfM0kaFLA_5Ysk7zrEBEgYaTFuAlMN9J7EorRJ5yDadLWw9mBQK0Q321eJlL65SzJ9BMBJsHUo76IouNzNbTM6LAVY4I1tPmoZWUEmegZR7LPhKkLA6VAAql2fgCMPqFPQqsW87CKm-04PtN8swspkiZaGfxYAU3Z-ya8OFt0R6fdvzg5oY-HWKtOukJg7oBpEBgYZG1wg7UFy87eBLw-vpZy1NmYvgMIEA9AKmESMTb0MZWphn5hn4NVXryBKNtcAB8h1ZcPKzg5s0gkLKL3PYAawD2U7FwtBxHBmfXwnr0I6VxHwxof9imZkeIO5wTm4ydoJlBo=w792-h383-no?authuser=0",      title: "WorldPin- React&SpringBoot API",
       github: "https://github.com/bendesousa/bnta_capstone_project",
       description:
         "This project is a collaborative effort that leverages the React library and a Java SpringBoot API to build a web application that allows users to communicate their world travels in the form of photos located on a map. The application integrates with various APIs, including Google Maps, Geolocation, and Google Search, to offer a comprehensive and interactive user experience. It also uses Firebase Storage to store user data and uploaded photos, to be rendered upon page load. This app is designed to be used by travellers and long distance loved ones- where individuals can track each others updates from around the world in the form of pictures, captions and dates.",
@@ -60,7 +59,7 @@ function Projects({}: Props) {
               viewport={{ once: true }}
               src={image}
               alt="project preview"
-              className="md:mb-0 flex-shrink-0 w-66 h-26 rounded-full md:rounded-lg lg:rounded-full md:w-94 md:h-106 xl:w-[500px] xl:h-[400px] object-contain cursor-pointer"
+              className="md:mb-0 flex-shrink-0 w-66 h-20 rounded-full md:rounded-lg lg:rounded-full lg:pt-12 md:w-94 md:h-56 xl:w-[500px] xl:h-[400px] object-contain"
             />
 
             <div className="space-y-10  md:px-1 max-w-6xl">

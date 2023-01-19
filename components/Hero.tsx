@@ -22,8 +22,8 @@ function Hero() {
       <MotionCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://previews.dropbox.com/p/thumb/ABzhiYgGSfS0Aa5stFZVPMJ50EmGXR0Owld3cuz10KaPn_dF_27LvrtUCLLaqiIYn-Tesdif0-cFgFAwnThfqfbA4AaAVistjU7_tYKOBrC1k9WXTEySZaeBYGofF9Gjq13q0cSFzacYpTqXxz5-Mb9iq3yzwZH3KqluxtLifxMMKvE72MONVxVRUUP4iYkp90XqD9JLfgfmG7T5-1cIrXQBzgh4t05Yqj3pKf3iNTPyNqIUtcEVsA6fqHMKt89BfpmnHoqfdvj13N1UVj4C2AoTQkJcvnKi07RuyzHoLhUKku64vhXeqoxklJ3IcUcAFf6uUThgCJW2sd01LbGVRLNaSZhNuosvXFMWMQAzHRoRkgCHyf8b8zo7TL2X90Z4Q2M/p.jpeg"
-      alt="A display picture of me"
+src=""
+        alt="A display picture of me"
       />
       <div className="z-20 relative">
         <h2 className="tracking-[15px] text-sm uppercase text-gray-500 pb-2">
