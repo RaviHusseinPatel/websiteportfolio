@@ -38,7 +38,8 @@ function ExperienceCard() {
         "https://previews.dropbox.com/p/thumb/ABzMvN_kat_m2TkPcb3xx4pHAytJDayWdW5ltexkoyFqnLEv6z9UuZpil0BIU8kvHwycV7gJMkj-OFHNHNrIUJDHpbuy2MKmzzKNqX4XwBLB-LCPL0ycqFgbxN5Fi6SnQ-kimzOvoSx3cGh3kB8NteXME6D7RbOwDZAZscVOYA6frrCcOAmCs4mlFxgvTGIDTKcTT1dPwzaqH-EzcXBfk74wlABOYPCei8V4RUY4fL3CFt6DLaONkc4VUp-qlxaJbqjZ0epz4DmHCjEbZYnIOyCmfCW1_YqMffM5zAK75VszX9H66nIEPZ4GAx5_C38XIzDGDLJKyn0V0Ieg4kEryEXzYKftyG6SFssmn8LjXf4-suKzlayHdkHjdK7S9EWrF20/p.png",
       skill2:
         "https://previews.dropbox.com/p/thumb/ABxWAAjDiCVKbDgCFcXujZhPZveC3danenZI2O81QR483TGCH2W2m8OfbTZq1XrFnsBvcWfM6XsuljYnptqjzBEKAp2A-qFZJB7YWUV_s2Bux9B5lNJ-yM7nGOkHzhylgt7ToEu3FRua6XTDD_auoOdMGNYpEU7MwhFuglH0o9maZxIbjnOG5tU6sjMH9vZJP3tu6Dqwf6o5Y2AgOPEBtFFKh0YVzH1Na5mR3piF0AtMsa8n1z8ZNQ6kWdyMhtU_j7ijK-C_vL4P7gGw2D_yxDZ2n4HvEk3a2v1FyA1raI2Et019pix2BvYwmyPwvIwbhjy-Rsd89HXKKYLZtq0T8pgXBC8EQMZV3Xx430Rvpj1aDbQmSaF40c3EnF8D2LBiXDE/p.png",
-      point1:
+      
+        point1:
         "Use Domain Registrar (123Reg) to move parked domain to Web Hosting Service (Siteground), to host Web Domain and point to the server",
       point2:
         "Collaborate  with client and designers to maximise UI based on market research of competitor sites ",
@@ -61,6 +62,11 @@ function ExperienceCard() {
         "Achieved an 80% approval rate by clients for subject matter experts recruited, exceeding the average rate of 65%",
     },
   ];
+
+  const handleError = (e) => {
+    e.target.style.display = "none";
+  };
+
 
   return (
     <>
@@ -97,9 +103,9 @@ function ExperienceCard() {
               <h4 className="text-2xl font-light">{role}</h4>
               <p className="font-bold text-xl mt-1">{company}</p>
               <div className="flex space-x-2 my-2">
-                <img className="h-10 w-13 rounded-full" src={skill1} alt="technical skill"/>
-                <img className="h-10 w-13 rounded-full" src={skill2}alt="technical skill" />
-                <img className="h-10 w-13 rounded-full" src={skill3} alt="technical skill"/>
+                <img className="h-10 w-13 rounded-full" src={skill1} alt="" onError={handleError}  />
+                <img className="h-10 w-13 rounded-full" src={skill2} alt="" onError={handleError} />
+                <img className="h-10 w-13 rounded-full" src={skill3} alt="" onError={handleError}/>
               </div>
 
               <p className="uppercase py-5 text-gray-300">{dates} </p>
