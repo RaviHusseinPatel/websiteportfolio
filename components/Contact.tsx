@@ -14,21 +14,27 @@ function Contact({}: Props) {
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_resiyjk",
-        "template_0682g8r",
-        form.current,
-        "twRllAXMHeliQ5GuD"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    if (form.current) {
+      emailjs
+        .sendForm(
+          "service_resiyjk",
+          "template_0682g8r",
+          form.current,
+          "twRllAXMHeliQ5GuD"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      e.currentTarget.reset();
+    } else {
+      // Handle the case where form.current is null
+      console.error("Form element not found");
+    }
 
     e.currentTarget.reset();
   };
