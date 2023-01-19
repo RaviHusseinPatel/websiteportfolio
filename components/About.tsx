@@ -21,7 +21,7 @@ function About() {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-src="https://photos.google.com/search/_tra_/photo/AF1QipPynqQXacMlYHqduR8AfiavwAoXiSDZOC_VLkXF"        alt="a picture of me"
+src="https://i.postimg.cc/xTysvLXY/dp.png"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-96 xl:w-300px xl:h-400px object-cover"
       ></motion.img>
 

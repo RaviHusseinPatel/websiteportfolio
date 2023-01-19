@@ -1,8 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import dp from "../public/dp.png"
-
+import dp from "../public/dp.png";
 import MotionCircles from "./MotionCircles";
 
 type Props = {};
@@ -22,9 +21,9 @@ function Hero() {
       <MotionCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-src=""
-        alt="A display picture of me"
-      />
+        src=
+"https://i.postimg.cc/dtksDt38/1e33c426-427c-4891-afdc-c79952a57f9e-2.jpg"
+/>
       <div className="z-20 relative">
         <h2 className="tracking-[15px] text-sm uppercase text-gray-500 pb-2">
           Software Engineer

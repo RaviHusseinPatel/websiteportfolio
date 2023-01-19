@@ -26,8 +26,7 @@ function Projects({}: Props) {
     {
       id: 3,
       image:
-        "https://previews.dropbox.com/p/thumb/AByKWHsJtZkyq1oR-Qg-RuVeZbr6vRXXkb-g9NaN1VpDvXMV_SnSOurbyJuK1k9wC7oO1dyM5G0cfedtqGWbBCWZGE41-yYpWdno-oZ28oOpTMd0J7bh8Otx_iTMR9V3tr2_QgzgdthI5MIjQd3jwwOM5dOMddtZ_LCaLjbE00-aFW_Em-lSqNzeeTrBz7xxOZ_r4C7X0U94evhw2A3OgqLEqQ3nCH384gWB8TXdXsN3Q9wDCXq2fLbvjK8otVOXejatH8OUEESKoX02pfpzIH0z4aPuMnBSvHVsGGJTKOVIloS7AHxGLurq7WmUgL2FAKPVIXGA1SUoO8FLPTOhdWDnpiEuqb_Xj2xfmpNvQNW_jGuXdLSgTrTrapPcfwJgUlE/p.png",
-      title: "Website Portfolio- Next.JS API",
+"https://i.postimg.cc/3RNM6nDg/Screenshot-2023-01-19-at-15-50-57.png",      title: "Website Portfolio- Next.JS API",
       github: "https://github.com/RaviHusseinPatel/websiteportfolio",
       description:
         "This fully-responsive modern portfolio website is built using Next.JS, a framework for building server-rendered or statically-exported React applications. It is written in TypeScript, a typed superset of JavaScript that adds type checking to your code, helping me catch errors before I run my code. The website is designed using Tailwind CSS, a utility-first CSS framework that makes it easy to style your application with low-specificity, modular styles. It allows me to apply styles directly to my HTML elements using classes, rather than having to define styles in a separate CSS file. It also implements animations and gestures using Framer Motion, a library for creating animations and gestures in React.",
