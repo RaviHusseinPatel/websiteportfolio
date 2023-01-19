@@ -27,7 +27,7 @@ src="https://i.postimg.cc/xTysvLXY/dp.png"
 
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">Here is a little background</h4>
-        <p className="text-sm xl:text-lg">
+        <p className="text-sm md:text-lg">
           An aspiring Frontend Developer with a year of experience building
           fullstack and frontend APIs, I have strong communication skills and a
           deep understanding of how to work with others. My experience in
