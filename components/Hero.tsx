@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import dp from "../public/dp.png"
 
 import MotionCircles from "./MotionCircles";
 

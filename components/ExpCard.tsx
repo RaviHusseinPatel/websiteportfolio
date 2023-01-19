@@ -50,7 +50,7 @@ function ExperienceCard() {
       id: 3,
       company: "Guidepoint",
       role: "Client Services",
-      dates: "Dec 21- May 22",
+      dates: "Dec 21- May  22",
 
       image:
         "https://previews.dropbox.com/p/thumb/ABzCLSNICV0j-UEj-52j6aEXMJlrcBnBbvJ0UgmyWLRv8EcFnMygwYODdGHmZZnQOwkScPwv_5wuIQHnfxLxa_tzT7s92-eFjBZoIOkn6_LphEZTBkUZrSI1STv9nksXBMka3xhtFfIjfT83m2xcZVVUjhSg4LcZGSM2qqGCr1N7Tcah6ZLFLfoH54Vtz90eIDXh3_V9zy9hhOLjmelleJqQx6TD3J0N0gPr3nEXr0BqNB6CHRqvnZS5_5kLcLBk_6X5RhD0ZMri7hsqC5eljx7RsxlO4IkFMM8vHFDuyzK4NwfU-hkCmU4Q9Uck4YhKXKdTLVILTdYxBhbJRrqRMlEJuMQe7h_O-w5IMMb-lG-_zCP1HWCnDUkJh88l2PlC3dE/p.png",
