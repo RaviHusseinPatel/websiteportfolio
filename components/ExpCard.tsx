@@ -79,6 +79,7 @@ function ExperienceCard() {
           point3,
         }) => (
           <article className=" top-2 flex flex-col rounded-lg items-center  flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40  transition-opacity duration-200 overflow-hidden">
+             <div key={id}>
             <motion.img
               initial={{
                 y: -100,
@@ -107,6 +108,7 @@ function ExperienceCard() {
                 <li>{point2} </li>
                 <li>{point3} </li>
               </ul>
+            </div>
             </div>
           </article>
         )
