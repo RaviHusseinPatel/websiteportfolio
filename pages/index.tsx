@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="snap-y snap-mandatory h-screen overflow-y-scroll scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-&#35;8A9A5B/80 hover:scrollbar-thumb-&#35;8A9A5B bg-rgb(36,36,36) text-white z-0">
       <Head>
-        <title>Ravi's Web</title>
+        <title>RaviHP Portfolio</title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       <section id="header" className="snap-start">
