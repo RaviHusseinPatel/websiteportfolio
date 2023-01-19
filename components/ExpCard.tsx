@@ -97,9 +97,9 @@ function ExperienceCard() {
               <h4 className="text-2xl font-light">{role}</h4>
               <p className="font-bold text-xl mt-1">{company}</p>
               <div className="flex space-x-2 my-2">
-                <img className="h-10 w-13 rounded-full" src={skill1} />
-                <img className="h-10 w-13 rounded-full" src={skill2} />
-                <img className="h-10 w-13 rounded-full" src={skill3} />
+                <img className="h-10 w-13 rounded-full" src={skill1} alt="technical skill"/>
+                <img className="h-10 w-13 rounded-full" src={skill2}alt="technical skill" />
+                <img className="h-10 w-13 rounded-full" src={skill3} alt="technical skill"/>
               </div>
 
               <p className="uppercase py-5 text-gray-300">{dates} </p>

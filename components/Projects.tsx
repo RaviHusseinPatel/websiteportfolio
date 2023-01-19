@@ -59,6 +59,7 @@ function Projects({}: Props) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               src={image}
+              alt="project preview"
               className="md:mb-0 flex-shrink-0 w-46 h-26 rounded-full md:rounded-lg lg:rounded-full md:w-64 md:h-96 xl:w-[500px] xl:h-[200px] object-contain cursor-pointer"
             />
 
