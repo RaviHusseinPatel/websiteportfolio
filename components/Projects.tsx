@@ -62,7 +62,7 @@ function Projects({}: Props) {
             />
 
             <div className="space-y-10  md:px-1 max-w-6xl">
-              <h4 className="text-3xl font-semibold text-center border-b-4  border-[#8A9A5B]">
+              <h4 className="text-xl  md:text-3xl font-semibold text-center border-b-4  border-[#8A9A5B]">
                 {title}
               </h4>
               <p className="text-center md:text-left  md:text-xl lg:text-xl ">
