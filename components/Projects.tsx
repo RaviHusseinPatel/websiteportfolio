@@ -45,7 +45,7 @@ function Projects({}: Props) {
       </h3>
       <br></br>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8A9A5B]/80">
+      <div className="mt-4 relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8A9A5B]/80">
         {projects.map(({ id, image, title, github, description }) => (
           <div key={id}>
           <motion.div className="w-screen flex flex-col space-y-5 items-center justify-center flex-shrink-0 snap-center p-20 md:p-44 h-screen">
@@ -65,7 +65,7 @@ function Projects({}: Props) {
               <h4 className="text-xl  md:text-3xl font-semibold text-center border-b-4  border-[#8A9A5B]">
                 {title}
               </h4>
-              <p className="text-center md:text-left  md:text-xl lg:text-xl ">
+              <p className="text-center text-xs md:text-left  md:text-xl lg:text-xl ">
                 {description}
               </p>
               <a
