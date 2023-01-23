@@ -51,7 +51,7 @@ const Header = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <AiOutlineFilePdf className="hover:translate-y-1  opacity-95 text-gray-400 text-3xl cursor-pointer animate-pulse" />
+          <AiOutlineFilePdf className="translate-y-1  hover:translate-y-2  opacity-95 text-green-400 text-3xl cursor-pointer animate-pulse" />
         </a>
       </div>
       <motion.div
