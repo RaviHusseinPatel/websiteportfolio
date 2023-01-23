@@ -29,7 +29,7 @@ function Projects({}: Props) {
 "https://i.postimg.cc/3RNM6nDg/Screenshot-2023-01-19-at-15-50-57.png",      title: "Website Portfolio- Next.JS API",
       github: "https://github.com/RaviHusseinPatel/websiteportfolio",
       description:
-        "This fully-responsive modern portfolio website is built using Next.JS, a framework for building server-rendered or statically-exported React applications. It is written in TypeScript, a typed superset of JavaScript that adds type checking to your code, helping me catch errors before I run my code. The website is designed using Tailwind CSS, a utility-first CSS framework that makes it easy to style your application with low-specificity, modular styles. It allows me to apply styles directly to my HTML elements using classes, rather than having to define styles in a separate CSS file. It also implements animations and gestures using Framer Motion, a library for creating animations and gestures in React.",
+        "This fully-responsive modern portfolio website is built using Next.JS, a framework for building server-rendered or statically-exported React applications. It is written in TypeScript, helping me catch errors before I run my code. The website is designed using Tailwind CSS, a utility-first CSS framework that makes it easy to style your application with low-specificity, modular styles. It allows me to apply styles directly to my HTML elements using classes, rather than having to define styles in a separate CSS file. It also implements animations and gestures using Framer Motion, a library for creating animations and gestures in React.",
       demo: "www.google.com",
     },
   ];
@@ -61,16 +61,16 @@ function Projects({}: Props) {
               className="md:mb-0 flex-shrink-0 w-66 h-20 rounded-full md:rounded-lg lg:rounded-full lg:pt-12 md:w-94 md:h-56 xl:w-[500px] xl:h-[400px] object-contain"
             />
 
-            <div className="space-y-10  md:px-1 max-w-6xl">
+            <div className="space-y-10 max-w-6xl">
               <h4 className="text-xl  md:text-3xl font-semibold text-center border-b-4  border-[#8A9A5B]">
                 {title}
               </h4>
-              <p className="text-center text-xs md:text-left  md:text-xl lg:text-xl ">
+              <p className="text-center text-xs md:text-left  md:text-lg lg:text-lg ">
                 {description}
               </p>
               <a
                 href={github}
-                className=" mb-3 mx-auto w-1/2 flex justify-center
+                className="translate-y-.5 mx-auto w-1/2 flex justify-center
               bg-[#8A9A5B]/70 hover:bg-[#8A9A5B]/90 py-5 px-10 rounded-md text-black font-bold text-lg hover:translate-y-0.5"
               target="_blank" rel="noreferrer noopener"
               >

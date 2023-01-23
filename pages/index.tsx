@@ -13,7 +13,7 @@ const inter = Inter({subsets:["latin"]});
 
 export default function Home() {
   return (
-    <div className="snap-y snap-mandatory h-screen overflow-y-scroll scrollbar scrollbar-track-grey-400/20 scrollbar-thumb-black hover:scrollbar-thumb-&#35;8A9A5B bg-[rgb(36,36,36)] text-white z-0">
+    <div className="scroll-smooth snap-y snap-mandatory h-screen overflow-y-scroll scrollbar scrollbar-track-grey-400/20 scrollbar-thumb-black hover:scrollbar-thumb-&#35;8A9A5B bg-[rgb(36,36,36)] text-white z-0">
       <Head>
         <title>RaviHP Portfolio</title>
         <link rel="icon" href="/favicon.ico"/>
@@ -21,7 +21,7 @@ export default function Home() {
       <section id="header" className="snap-start">
         <Header/>
       </section>
-      <section id="hero" className="snap-start">
+      <section id="hero" className="">
         <Hero/>
       </section>
       <section id="about" className="snap-center transition-duration-900">
