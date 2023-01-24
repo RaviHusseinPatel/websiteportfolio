@@ -69,7 +69,7 @@ const Header = () => {
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
        <Link href="#contact" as="#contact">
-   <p className="text-gray-500 hover:translate-y-1">GET IN TOUCH ✉</p>
+   <p className="text-gray-500 hover:translate-y-1">ENQUIRIES/FFEDBACK ✉</p>
 
 </Link>
       
