@@ -1,8 +1,10 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import dp from "../public/dp.png";
 import MotionCircles from "./MotionCircles";
+import dp2 from "../public/dp2.jpg"
 
 type Props = {};
 
@@ -19,10 +21,15 @@ function Hero() {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <MotionCircles />
-      <img
+      {/* <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src=
-"https://i.postimg.cc/dtksDt38/1e33c426-427c-4891-afdc-c79952a57f9e-2.jpg"
+"https://photos.app.goo.gl/Scwpw1KziSmr6sM46"
+/> */}
+<Image
+className="relative rounded-full h-32 w-32 mx-auto object-cover"
+src={dp2}
+alt=""
 />
       <div className="z-20 relative">
         <h2 className="tracking-[15px] text-sm uppercase text-gray-500 pb-2">
