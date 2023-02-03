@@ -17,7 +17,7 @@ function Projects({}: Props) {
     },
     {
       id: 2,
-      image: "https://photos.app.goo.gl/XeoUnPiY98c5uZur8",
+      image: "https://photos.app.goo.gl/8uTyd4SVP3vaChuY7",
       title: "TicTacToe- SpringBoot API",
       github: "https://github.com/RaviHusseinPatel/TicTacToe-2player-",
       description:
